@@ -140,7 +140,7 @@ class AlienInvasion:
         """将整个队列向下移动,并改变配置对象中alien_direction的值"""
         for alien in self.aliens.sprites():
             alien.rect.y+=self.Setting.alien_drop_speed
-        self.Setting.alien_direction*=-1
+        self.Setting.alien_direction*=-2
 
 
 if __name__=='__main__':
